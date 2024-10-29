@@ -1,0 +1,19 @@
+#root-container {
+    display: grid;
+    margin: auto;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+#navbar-container {
+    grid-area: auto ;
+}
+
+#content-container {
+    grid-area: auto ;
+}
+
+#sidebar-container {
+    grid-area: auto ;
+}
